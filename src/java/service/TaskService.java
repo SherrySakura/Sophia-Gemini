@@ -1,6 +1,6 @@
-package service;
+package java.service;
 
-import model.Task;
+import java.model.Task;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -14,7 +14,7 @@ import java.util.List;
 public class TaskService {
 
 
-    private static String taskPath = "resource/task.xml";
+    private static String taskPath = "/home/asuna/IdeaProjects/Sophia-Gemini/resource/task-discrible/task.xml";
 
     public static List<Task> getAllTask() throws DocumentException {
         SAXReader reader = new SAXReader();

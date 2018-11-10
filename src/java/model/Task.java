@@ -1,4 +1,4 @@
-package model;
+package java.model;
 
 /**
  * 任务描述类

@@ -1,10 +1,15 @@
-package controller;
+package java.controller;
 
 
+import java.model.Task;
+import org.dom4j.DocumentException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import service.TomagoService;
+import java.service.TaskService;
+import java.service.TomagoService;
+
+import java.util.List;
 
 @Controller
 public class CoreController {
@@ -46,5 +51,16 @@ public class CoreController {
             e.printStackTrace();
         }
         return response;
+    }
+
+    @RequestMapping("tasks.do")
+    @ResponseBody
+    public List<Task> getTasks(){
+        try {
+            return TaskService.getAllTask();
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }
