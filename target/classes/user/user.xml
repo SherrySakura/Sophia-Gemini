@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users> 
+  <user> 
+    <id>ifxidj</id>  
+    <password>sdewfevfvadferrga</password>  
+    <age>22</age>  
+    <love>0</love> 
+  </user>  
+  <user>
+    <id>Sophia</id>
+    <password>123</password>
+    <age>25</age>
+    <love>0</love>
+  </user>
+</users>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taskList>
+    <task>
+        <taskUID>ehfuhaasacncne123</taskUID>
+        <taskTpye>位置信息</taskTpye>
+        <taskDiscrible>上传范围内XX数据</taskDiscrible>
+        <taskDeadline>2018-11-10 12:00:00</taskDeadline>
+        <taskBase>100</taskBase>
+    </task>
+</taskList>
