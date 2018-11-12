@@ -1,24 +1,26 @@
-package java.model;
+package sophia.model;
 
 /**
  * 任务描述类
  */
-public class Task {
+public class Task extends Message {
     private String taskUID;
     private String taskTpye;
     private String taskDiscrible;
     private String taskDeadline;
     private double taskBase;
+    private int remain;
 
     public Task() {
     }
 
-    public Task(String taskUID, String taskTpye, String taskDiscrible, String taskDeadline, double taskBase) {
+    public Task(String taskUID, String taskTpye, String taskDiscrible, String taskDeadline, double taskBase, int remain) {
         this.taskUID = taskUID;
         this.taskTpye = taskTpye;
         this.taskDiscrible = taskDiscrible;
         this.taskDeadline = taskDeadline;
         this.taskBase = taskBase;
+        this.remain = remain;
     }
 
     public String getTaskUID() {
@@ -59,5 +61,17 @@ public class Task {
 
     public void setTaskBase(double taskBase) {
         this.taskBase = taskBase;
+    }
+
+    public int getRemain() {
+        return remain;
+    }
+
+    public void setRemain(int remain) {
+        this.remain = remain;
+    }
+
+    public void decrease(){
+        this.remain--;
     }
 }

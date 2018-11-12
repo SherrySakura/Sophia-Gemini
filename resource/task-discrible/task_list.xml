@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tasklist>
+<task>
+    <taskUID>lfg20181110124000</taskUID>
+    <taskTpye>location_info</taskTpye>
+    <taskDiscrible>请上传您所在位置信息，方便更好地预测交通拥堵情况</taskDiscrible>
+    <taskDeadline>2018-11-18 12:40:00</taskDeadline>
+    <taskRemain>2</taskRemain>
+    <taskBase>5</taskBase>
+    <taskLove>0</taskLove>
+</task>
+
+<task>
+    <taskUID>energency20190101090500</taskUID>
+    <taskTpye>accident_info</taskTpye>
+    <taskDiscrible>请协助采集芙蓉南路与竹塘西路交叉路口交通事故现场照片</taskDiscrible>
+    <taskDeadline>2019-01-01 9:05:00</taskDeadline>
+    <taskRemain>20</taskRemain>
+    <taskBase>50</taskBase>
+    <taskLove>50</taskLove>
+</task>
+
+<task>
+    <taskUID>findlostbaby20190101120000</taskUID>
+    <taskTpye>lostbaby_info</taskTpye>
+    <taskDiscrible>登记走失孩童信息</taskDiscrible>
+    <taskDeadline>2020-01-01 12:00:00</taskDeadline>
+    <taskRemain>10000</taskRemain>
+    <taskBase>0</taskBase>
+    <taskLove>100</taskLove>
+</task>
+
+<task>
+    <taskUID>userpublish0001129</taskUID>
+    <taskTpye>userpub_info</taskTpye>
+    <taskDiscrible>急求韶山南路铁道学院附近1km范围内的停车位！</taskDiscrible>
+    <taskDeadline>2018-11-03 12:30:00</taskDeadline>
+    <taskRemain>2</taskRemain>
+    <taskBase>50</taskBase>
+    <taskLove>0</taskLove>
+</task>
+
+</tasklist>

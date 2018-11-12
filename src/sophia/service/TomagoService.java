@@ -1,4 +1,4 @@
-package java.service;
+package sophia.service;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -13,8 +13,8 @@ public class TomagoService {
 
     private final String miniboxAddress = "127.0.0.1:9143";
     private final String remoteAddress = "139.198.15.132:9143";
-    private final String remoteCert = "/home/asuna/project/DCPC/Sophia-Gemini/resource/cert/";
-    private final String miniboxCert = "/home/asuna/project/DCPC/Sophia-Gemini/resource/localcert/";
+    private final String remoteCert = "/home/asuna/IdeaProjects/Sophia-Gemini/resource/cert";
+    private final String miniboxCert = "/home/asuna/IdeaProjects/Sophia-Gemini/resource/localcert/";
     private final String miniboxApiKey = "UmZWPJNTp1541577803";
     private final String remoteApiKey = "A7bUwK7Hp1541494283";
 
